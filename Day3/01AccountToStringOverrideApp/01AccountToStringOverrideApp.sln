@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01AccountToStringOverrideApp", "01AccountToStringOverrideApp\01AccountToStringOverrideApp.csproj", "{3E4171E1-1BAC-42E1-9939-C7302A73CD94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E4171E1-1BAC-42E1-9939-C7302A73CD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4171E1-1BAC-42E1-9939-C7302A73CD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4171E1-1BAC-42E1-9939-C7302A73CD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4171E1-1BAC-42E1-9939-C7302A73CD94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3699D14-0B04-4D1D-AE5E-5BD46C50D870}
+	EndGlobalSection
+EndGlobal
