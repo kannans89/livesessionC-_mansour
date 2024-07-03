@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01AccountToStringOverrideApp.Model
 {
-	public class Account
+	public class Account:Object
 	{
 		private int _accoutNumber;
 		private string _name;
@@ -26,6 +26,16 @@ namespace _01AccountToStringOverrideApp.Model
 			_name = name;
 			this._balance = _balance;
 		}
+
+		//public override string ToString()
+		//{
+			
+
+		//	return $" Accout no is {_accoutNumber} " +
+		//		$" Name is  {_name} " +
+		//		$" balance is {_balance}";
+		//}
+
 
 
 		public string Name {
