@@ -1,4 +1,6 @@
 
+using SimpleAPIProject.Services;
+
 namespace SimpleAPIProject
 {
 	public class Program
@@ -13,6 +15,8 @@ namespace SimpleAPIProject
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
+
+			builder.Services.AddSingleton<CustomerService>();
 
 			var app = builder.Build();
 
